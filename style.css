@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar img {
+    height: 30px;
+}
+
+.lang {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 32px;
+    width: 360px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header .logo {
+    height: 25px;
+}
+
+.offer-link {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #101065;
+}
+
+.switch {
+    margin: 20px 0;
+    display: flex;
+}
+
+.switch button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #eee;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.switch .active {
+    background-color: white;
+    border-bottom: 2px solid #f9f9f9;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.password-field {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.qr-link {
+    text-align: center;
+    margin-top: 8px;
+    color: gray;
+    font-size: 14px;
+}
+
+.confirm-btn {
+    background-color: #FFA07A;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.confirm-btn:disabled {
+    background-color: #ffcab0;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: red;
+    display: none;
+    font-size: 14px;
+    margin-top: 6px;
+    text-align: center;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  position: relative;
+}
+.logo{
+    margin-right: 566px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background:   black;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+.nav button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: #eee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main {
+  
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  position: relative;
+ display: flex;
+}
+
+/* Карточка */
+.card {
+  width: 280px;
+  padding: 16px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+}
+
+
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
+
+
+.rank {
+  font-weight: bold;
+  color: #d12;
+  margin: 15px 0;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+.details {
+  font-size: 12px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+  background: #f44;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  gap: 50px;
+}
+
+
+
+.guide-vertical {
+  width: 1px;
+  height: 100%;
+  top: 0;
+}
+
+.guide-horizontal {
+  height: 1px;
+  width: 100%;
+  left: 0;
+}
+
+.label {
+  position: absolute;
+  background: #fff;
+  color: red;
+  font-size: 12px;
+  padding: 2px 4px;
+  border: 1px solid red;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+.ism{
+    font-size: 20px;
+    font-weight: 700;
+    color: #101065;
+}
